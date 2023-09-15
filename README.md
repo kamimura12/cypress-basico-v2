@@ -19,11 +19,15 @@ Para utilizar a ferramenta **Cypress** precisamos de algumas configurações ins
 ## Executando os testes
 
 Após instalar todas as dependecias e todos os plugins necessários, está na hora de executar os testes escritos.
+
 Para executar os testes utilize o comando: npm run cy:open, onde será aberto uma UI do cypress que você poderá comandar todas as informações por ela.
+
 **OBS** Caso queira executar por via NPM sem a UI, basta executar o comando npm test.
 
 ### Executando os testes mobile
 
 Para executar os testes criados para versão mobile, deve ser utilizado os seguintes comandos
+
 Com UI: npm run cy:open
+
 Sem UI: npm run test:mobile
