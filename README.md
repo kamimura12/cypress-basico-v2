@@ -1,29 +1,29 @@
-# Testes automatizados com Cypress - Básico
+# cypress-basico-v2
 
-👋 Seja bem-vindo(a)!
+## SOBRE O PROJETO 
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+- O projeto serve para atender usuários que precisam de ajuda, que queiram dar feedback ou elogiar os produtos oferecidos pela empresa.
 
-## O que você vai aprender
+## PRÉ REQUISITOS
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+Para utilizar a ferramenta **Cypress** precisamos de algumas configurações instaladas em sua máquina:
+. Deve ser instalada a versão mais recente do NodeJS. Disponível: https://nodejs.org/en;
+. Deve possuir uma conta GitHub e ter instalado o aplicativo no seu PC;
+. Ter instalado o NPM em sua máquina para conseguir rodar o projeto de teste.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+## Instalando dependências
 
-## Vamos começar?
+1. Com o terminal do git aberto na pasta do projeto digite o seguinte comando: npm install cypress, onde será instalado a versão mais recente do Cypress em sua máquina.
+2. Caso deseja verificar a versão instalada do cypress, digite o comando npx cypress --version.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Executando os testes
 
-___
+Após instalar todas as dependecias e todos os plugins necessários, está na hora de executar os testes escritos.
+Para executar os testes utilize o comando: npm run cy:open, onde será aberto uma UI do cypress que você poderá comandar todas as informações por ela.
+**OBS** Caso queira executar por via NPM sem a UI, basta executar o comando npm test.
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+### Executando os testes mobile
+
+Para executar os testes criados para versão mobile, deve ser utilizado os seguintes comandos
+Com UI: npm run cy:open
+Sem UI: npm run test:mobile
