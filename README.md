@@ -7,9 +7,10 @@
 ## PRÉ REQUISITOS
 
 Para utilizar a ferramenta **Cypress** precisamos de algumas configurações instaladas em sua máquina:
-. Deve ser instalada a versão mais recente do NodeJS. Disponível: https://nodejs.org/en;
-. Deve possuir uma conta GitHub e ter instalado o aplicativo no seu PC;
-. Ter instalado o NPM em sua máquina para conseguir rodar o projeto de teste.
+
+1. Deve ser instalada a versão mais recente do NodeJS. Disponível: https://nodejs.org/en;
+2. Deve possuir uma conta GitHub e ter instalado o aplicativo no seu PC;
+3. Ter instalado o NPM em sua máquina para conseguir rodar o projeto de teste.
 
 ## Instalando dependências
 
